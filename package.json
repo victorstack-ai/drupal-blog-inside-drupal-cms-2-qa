@@ -1,0 +1,15 @@
+{
+  "name": "drupal-blog-inside-drupal-cms-2-qa",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.js",
+    "lint": "eslint .",
+    "test": "mocha \"tests/**/*.test.js\""
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "marked": "^4.3.0",
+    "mocha": "^10.2.0"
+  }
+}
